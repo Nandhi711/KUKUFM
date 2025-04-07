@@ -1,0 +1,19 @@
+{
+    "sample_stories": [
+      {
+        "theme": "Animals",
+        "vibe": "Calm",
+        "length": "5 minutes",
+        "prompt": "kindness",
+        "story": "Once upon a time in a quiet forest, a little fox helped a lost bunny find its way home..."
+      },
+      {
+        "theme": "Space",
+        "vibe": "Adventurous",
+        "length": "10 minutes",
+        "prompt": "teamwork",
+        "story": "In a galaxy far away, a team of alien kids worked together to fix their spaceship..."
+      }
+    ]
+  }
+  

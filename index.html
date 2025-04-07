@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SleepStories Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌙 SleepStories Studio</h1>
+    <p>Create a bedtime story tailored for your child</p>
+
+    <label>Choose Theme:</label>
+    <select id="theme">
+      <option>Animals</option>
+      <option>Space</option>
+      <option>Jungle</option>
+    </select>
+
+    <label>Select Vibe:</label>
+    <select id="vibe">
+      <option>Calm</option>
+      <option>Adventurous</option>
+      <option>Funny</option>
+    </select>
+
+    <label>Story Length:</label>
+    <select id="length">
+      <option>5 minutes</option>
+      <option>10 minutes</option>
+      <option>15 minutes</option>
+    </select>
+
+    <label>Enter a Value to Teach (e.g., kindness):</label>
+    <input type="text" id="prompt" placeholder="Enter custom prompt" />
+
+    <button onclick="generateStory()">Generate Story</button>
+
+    <div id="storyOutput"></div>
+    <button onclick="speakStory()">🔊 Play Audio</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
